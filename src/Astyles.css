@@ -136,6 +136,7 @@ h1.underline {
 }
 
 h1.foldaway {
+  position: relative;
   font-weight: 600;
   font-size: 1.4rem;
   letter-spacing: 0.00rem;
@@ -204,18 +205,19 @@ h4 {
   color:var(--color-orchid);
   cursor:default;
   margin: auto 0;
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
 }
 
 h4.bold {
   font-weight: 400;
   letter-spacing: .09rem;
+}
+
+h4.select {
+  cursor: pointer;
+}
+
+h4.select:hover {
+  font-weight: 500;
 }
 
 h5 {
@@ -235,6 +237,10 @@ h5 {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+}
+
+h5:hover {
+  font-weight:400;
 }
 
 h6 {
@@ -276,6 +282,12 @@ sup, sub {
   position: relative;
   display: block;
   height: 48rem; /*600px*/
+}
+
+.module-two-thirds {
+  position: relative;
+  display: block;
+  height: 36rem;
 }
 
 .module-half {
@@ -416,7 +428,15 @@ sup, sub {
   max-width: 76rem;
 }
 
-img.svg-base, img.svg-appear{
+img.svg-base {
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+  width: 100%;
+}
+
+img.svg-tech {
+  z-index: 0;
   position: absolute;
   top: 0;
   pointer-events: none;
@@ -447,6 +467,7 @@ img.svg-base, img.svg-appear{
 }
 
 .paragraph {
+  position: relative;
   width: 48rem;
 }
 

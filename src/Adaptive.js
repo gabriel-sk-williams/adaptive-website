@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Landscape from './svg/landscape.svg';
+import LandscapeMain from './svg/landscape_main.svg';
 
 import DataConversion from './svg/data_conversion.svg';
 import HousingAssessment from './svg/housing_assessment.svg';
@@ -55,7 +55,7 @@ class Adaptive extends Component {
 
     return (
       <main className="container">
-        <img className="svg-base" src={Landscape} alt="Landscape" />
+        <img className="svg-base" src={LandscapeMain} alt="Main" />
         
         <div className="flex-column">
           <section className="module-diagram send-right inner-rails">
