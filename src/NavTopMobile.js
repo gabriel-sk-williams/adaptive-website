@@ -9,11 +9,11 @@ class NavTopMobile extends Component {
 	render() {
         return 	(
             <nav className="nav-top mobile">
-                <ul className="flex">
+                <ul className="flex marginal-bottom">
 					<li className='col-4-12'>						
 						<div className="left">
                             <Link to='/' onClick={this.handleClick}>
-                                <h1 className="bold">adaptive</h1>
+                                <h1 className="bold mobile">adaptive</h1>
                             </Link>
 						</div>
 					</li>
@@ -27,9 +27,5 @@ class NavTopMobile extends Component {
         );
     }
 }
-
-
-
-
 
 export default NavTopMobile;

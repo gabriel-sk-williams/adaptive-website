@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import NavTopMobile from './NavTopMobile';
-import FooterMobile from './FooterMobile';
 import ArrowShape from './svg/ArrowShape';
 import { Link } from "react-router-dom";
 
@@ -19,7 +18,7 @@ class NavMobile extends Component {
                             <ul className="flex">
                                 <li className="col-6-12">
                                     <div className="mini-card">
-                                        <h3 className="left">tech</h3>
+                                        <h3 className="left mobile">tech</h3>
                                     </div>
                                 </li>
                                 <li className="col-6-12">
@@ -33,12 +32,12 @@ class NavMobile extends Component {
                             </ul>
                         </section>
                     </Link>
-                    <Link to='/about/'>
+                    <Link to='/contact/'>
                         <section className="mini-module">
                             <ul className="flex">
                                 <li className="col-6-12">
                                     <div className="mini-card">
-                                        <h3 className="left">about</h3>
+                                        <h3 className="left mobile">contact</h3>
                                     </div>
                                 </li>
                                 <li className="col-6-12">
@@ -51,8 +50,8 @@ class NavMobile extends Component {
                                 </li>
                             </ul>
                         </section>
+                        <section className="fake-module" />
                     </Link>
-                    <FooterMobile />
                     </div>
                 </main>
             </div>

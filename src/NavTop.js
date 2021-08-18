@@ -22,7 +22,7 @@ class NavTop extends Component {
 
 	render() {
 		const tech = this.props.activePage === "tech";
-		const about = this.props.activePage === "about";
+		const about = this.props.activePage === "contact";
 
 		const techClass = tech ? "menu right white bold" : "menu right";
 		const aboutClass = about ? "menu right white bold" : "menu right";
@@ -30,41 +30,30 @@ class NavTop extends Component {
 		const hamburgerClass = "hamburger";
 		const mobileClass = this.state.menuStatus ? "nav-mobile open" : "nav-mobile closed";
     return 	(
-			<nav className="nav-top main-rails">
+			<nav className="nav-top">
 				<NavMobile status={mobileClass} menuToggle={this.menuToggle}/>
 
-				<ul className="flex">
-					<li className='col-6-12'>						
-						<div className="left">
-							<Link to='/'>
-								<h1 className="bold">adaptive</h1>
+					<Link to='/'>
+						<h1 className="bold">adaptive</h1>
+					</Link>
+
+					<ul className="flex-right bottom-right">
+						<li className='link-header'>
+							<Link to='/tech/'>
+								<h3 id="nav" className={techClass}>tech</h3>
 							</Link>
-						</div>
-					</li>
-					<li className='col-6-12'>
-						<ul className="flex-right bottom-right">
-							<li className='link-header'>
-								<Link to='/tech/'>
-									<h3 id="nav" className={techClass}>tech</h3>
-								</Link>
-							</li>
-							<li className='link-header'>
-								<Link to='/about/'>
-									<h3 id="nav" className={aboutClass}>about</h3>
-								</Link>
-							</li>
-						</ul>
-					</li>
-				</ul>
+						</li>
+						<li className='link-header'>
+							<Link to='/contact/'>
+								<h3 id="nav" className={aboutClass}>contact</h3>
+							</Link>
+						</li>
+					</ul>
 
 				<Menu className={hamburgerClass} onClick={this.handleClick} />
 			</nav>
 		);
   	}
 }
-
-
-
-
 
 export default NavTop;
