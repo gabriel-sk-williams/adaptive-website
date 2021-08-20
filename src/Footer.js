@@ -13,7 +13,7 @@ class Footer extends Component {
                         <li className="col-4-12 left">
                         <h3 className="bold"> adaptive 2021 </h3>
                         </li>
-                        <li className="col-4-12 right">
+                        <li className="col-4-12 right legal">
                             <ul className="flex-column">      
                                 <h3 className="bold"> legal </h3><br/>
                                 <h5> Terms </h5>

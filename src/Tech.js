@@ -42,7 +42,7 @@ class Tech extends Component {
 
     return (
       <main className="container">
-        <img className="svg-tech" src={LandscapeTech} alt="Tech" />
+        <img className="svg-base" src={LandscapeTech} alt="Tech" />
         
         <div className="inner-rails">
           <h1 className="left gap-bottom">

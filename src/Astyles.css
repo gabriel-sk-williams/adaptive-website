@@ -243,6 +243,7 @@ h5:hover {
   font-weight:400;
 }
 
+/*
 h6 {
   font-family:Abel;
   font-weight:400;
@@ -257,6 +258,7 @@ h6 {
 h6.small{
   font-size:1.75rem;
 }
+*/
 
 p,a {
   text-decoration: none;
@@ -275,7 +277,7 @@ sup, sub {
 .module-diagram {
   position: relative;
   display: block;
-  height: 56rem;
+  height: 62rem;
 }
 
 .module {
@@ -435,14 +437,6 @@ img.svg-base {
   width: 100%;
 }
 
-img.svg-tech {
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  pointer-events: none;
-  width: 100%;
-}
-
 .svg-large {
   height: 6rem;
   width: 6rem;
@@ -520,17 +514,18 @@ footer {
   top: 1rem;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1024px) { /* iPad Pro width: 1024 */
 
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:895px) { /* midpoint */
   .flex.btns{
     flex-direction:column;
   }
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:767px) { /* iPad width: 768 */
+  /* MENU */
   #nav {
     display: none;
   }
@@ -599,6 +594,144 @@ footer {
     -ms-transform: translateX(100%);
     transform: translateX(100%);
   }
+  /* LAYOUT */
+  h1 {
+    letter-spacing:0.15rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  h1.indent {
+    width: 22rem;
+    padding-left: 1rem;
+    text-align: left;
+  }
+  h1.underline {
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.00rem;
+  }
+  h2 {
+    letter-spacing:0rem;
+    font-size: 1.8rem;
+    line-height: 2.35rem;
+  }
+  h3 {
+    margin-block-start: 24px;
+    letter-spacing:0.075rem;
+    font-size: 0.75rem;
+    line-height: 0.8rem;
+  }
+  h4 {
+    letter-spacing:0rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  h5 {
+    /*
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    */
+    letter-spacing:0.03rem;
+    font-size: .6rem;
+    line-height: 0.9rem;
+  }
+  .main-rails {
+    margin: 0rem 1rem;
+  }
+  .inner-rails {
+    padding: 1rem 2px;
+  }
+  .container {
+    max-width: 48rem;
+  }
+  .send-right { /*halved*/
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .send-left {
+    width: 28rem;
+    text-align: left;
+  }
+  h4.indent {
+    padding-left: 1rem;
+  }
+  .flex.indent {
+    padding-left: 2rem;
+  }
+  .svg-large {
+    height: 4rem;
+    width: 4rem;
+  }
+  .paragraph {
+    width: 20rem;
+  }
+  .module-diagram { height: 21rem; }
+  .module { height: 42rem; }
+  .module-two-thirds { height: 12rem; }
+  .module-half { height: 19rem; }
+  .module-third { height: 5rem; }
+  .module-quarter { height: 4rem; }
+  .module-fifth { height: 3rem; }
+
+  .channel {
+    width:100%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: left;
+  }
+
+  .flex-column.col-6-12 {
+    width: 100%;
+  }
+  .flex.indent.icons{
+    flex-direction:column;
+  }
+  ul.flex.gap-top{
+    padding-top:0px;
+  }
+  
+  .flex.channel{
+    flex-direction: row;
+  }
+  .flex-column {
+    /*flex-direction:row;*/
+  }
+  /*
+  .flex{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+  
+    -ms-flex-wrap:row wrap;
+    flex-wrap:row wrap;
+    justify-content:flex-start;
+    overflow:hidden;
+  }
+  
+  .flex-right{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+  
+    -ms-flex-wrap:row wrap;
+    flex-wrap:row wrap;
+    justify-content:flex-end;
+    overflow:visible;
+  }
+  
+  .flex-column{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+  
+    -ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+  
+    flex-direction:column;
+  }
+  */
 }
 
 @media only screen and (max-width:400px) {
@@ -648,16 +781,8 @@ footer {
 // POSITIONAL DUDES
 */
 
-.centered {
-  margin: auto;
-}
-
 .indent {
   padding-left: 4rem;
-}
-
-li.spread {
-  width: 13rem;
 }
 
 .mini-top {

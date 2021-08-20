@@ -64,9 +64,7 @@ class Adaptive extends Component {
           </section>
 
           <section className="module-half inner-rails">
-            <h1 className="indent mini-bottom">
-              Move beyond mapping—with a new data structure.
-            </h1>
+            <h1 className="indent mini-bottom">Move beyond mapping with a new data structure.</h1>
             <h4 className="left indent paragraph gap-bottom">
               Adaptive is a virtual graph database that aggregrates inputs from distributed sources and gives them a common data model.
               <br/><br/>
@@ -79,7 +77,7 @@ class Adaptive extends Component {
           <section className="module inner-rails">
             <h1 className="indent underline">Now offering:</h1>
             <div className="mini-top" />
-            <div className="flex indent">
+            <div className="flex indent icons">
               <div className ="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={DataConversion} alt="Data Conversion" />
@@ -114,7 +112,7 @@ class Adaptive extends Component {
             <div className="mini-bottom" />
             <h1 className="indent underline">Coming soon:</h1>
             <div className="mini-top" />
-            <div className="flex indent">
+            <div className="flex indent icons">
               <div className ="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={UrbanEconomic} alt="Economic Modeling" />
