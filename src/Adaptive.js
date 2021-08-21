@@ -81,30 +81,30 @@ class Adaptive extends Component {
               <div className ="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={DataConversion} alt="Data Conversion" />
-                  <h3 className="gap-left">Data conversion</h3>
+                  <h3 className="gap-left icon">Data conversion</h3>
                 </div>
                 <div className="flex channel">
                   <img className="svg-large" src={HousingAssessment} alt="Housing Assessment" />
-                  <h3 className="gap-left">Housing assessment</h3>
+                  <h3 className="gap-left icon">Housing assessment</h3>
                 </div>
                 <div className="flex channel">
                   <img className="svg-large" src={FifteenMinuteCities} alt="15 Minute Cities" />
-                  <h3 className="gap-left">15-minute cities</h3>
+                  <h3 className="gap-left icon">15-minute cities</h3>
                 </div>
               </div>
 
               <div className="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={PolicyCompliance} alt="Policy Compliance" />
-                  <h3 className="gap-left">Policy compliance</h3>
+                  <h3 className="gap-left icon">Policy compliance</h3>
                 </div>
                 <div className="flex channel">
                   <img className="svg-large" src={ZonedCapacity} alt="Zoned Capacity" />
-                  <h3 className="gap-left">Zoned capacity</h3>
+                  <h3 className="gap-left icon">Zoned capacity</h3>
                 </div>
                 <div className="flex channel">
                   <img className="svg-large" src={InteractiveInfo} alt="Infographics" />
-                  <h3 className="gap-left">Interactive infographics</h3>
+                  <h3 className="gap-left icon">Interactive infographics</h3>
                 </div>
               </div>
             </div>
@@ -116,17 +116,17 @@ class Adaptive extends Component {
               <div className ="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={UrbanEconomic} alt="Economic Modeling" />
-                  <h3 className="gap-left">Urban economic modeling</h3>
+                  <h3 className="gap-left icon">Urban economic modeling</h3>
                 </div>
                 <div className="flex channel">
                   <img className="svg-large" src={PredictiveAnalytics} alt="Analytics" />
-                  <h3 className="gap-left">Predictive analytics</h3>
+                  <h3 className="gap-left icon">Predictive analytics</h3>
                 </div>
               </div>
               <div className ="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={GraphNeural} alt="Graph Neural Networks" />
-                  <h3 className="gap-left">Graph neural networks</h3>
+                  <h3 className="gap-left icon">Graph neural networks</h3>
                 </div>
               </div>
             </div>

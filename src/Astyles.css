@@ -430,7 +430,7 @@ sup, sub {
   max-width: 76rem;
 }
 
-img.svg-base {
+.svg-base {
   position: absolute;
   top: 0;
   pointer-events: none;
@@ -567,7 +567,7 @@ footer {
   .hamburger {
     display: block;
     right: 0;
-    bottom: 0;
+    top: 4px;
   }
   .exit-shape{
     cursor: pointer;
@@ -595,31 +595,45 @@ footer {
     transform: translateX(100%);
   }
   /* LAYOUT */
+  
   h1 {
     letter-spacing:0.15rem;
     font-size: 1rem;
     line-height: 1rem;
-  }
-  h1.indent {
-    width: 22rem;
-    padding-left: 1rem;
-    text-align: left;
   }
   h1.underline {
     font-weight: 600;
     font-size: 1.1rem;
     letter-spacing: 0.00rem;
   }
+  h1.indent {
+    width: 22rem;
+    padding-left: 0rem;
+    text-align: left;
+  }
+  h1.foldaway {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.00rem;
+  }
+  h1.bold.mobile {
+    line-height: 2.5rem;
+  }
   h2 {
     letter-spacing:0rem;
     font-size: 1.8rem;
     line-height: 2.35rem;
   }
-  h3 {
-    margin-block-start: 24px;
+  h3.icon {
     letter-spacing:0.075rem;
-    font-size: 0.75rem;
-    line-height: 0.8rem;
+    font-size: 1rem;
+    line-height: 4rem;
+  }
+  h3.footer {
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.4rem;
   }
   h4 {
     letter-spacing:0rem;
@@ -627,25 +641,29 @@ footer {
     line-height: 1.2rem;
   }
   h5 {
-    /*
-    margin-block-start: 20px;
-    margin-block-end: 20px;
-    */
     letter-spacing:0.03rem;
     font-size: .6rem;
     line-height: 0.9rem;
   }
+  /*
+  img.svg-base {
+    position: absolute;
+    top: 6rem;
+    pointer-events: none;
+    width: 100%;
+  }
+  */
   .main-rails {
     margin: 0rem 1rem;
   }
   .inner-rails {
-    padding: 1rem 2px;
+    padding: 1rem 1rem;
   }
   .container {
     max-width: 48rem;
   }
-  .send-right { /*halved*/
-    width: 18rem;
+  .send-right {
+    width: 20rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -654,12 +672,14 @@ footer {
     width: 28rem;
     text-align: left;
   }
+
   h4.indent {
-    padding-left: 1rem;
+    padding-left: 0rem;
   }
   .flex.indent {
-    padding-left: 2rem;
+    padding-left: 0rem;
   }
+
   .svg-large {
     height: 4rem;
     width: 4rem;
@@ -695,9 +715,13 @@ footer {
   .flex.channel{
     flex-direction: row;
   }
-  .flex-column {
-    /*flex-direction:row;*/
+  li.col-4-12 {
+    width: 50%;
   }
+  li.col-4-12.legal {
+    display: none;
+  }
+
   /*
   .flex{
     display:-webkit-box;
