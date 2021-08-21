@@ -15,7 +15,7 @@ class Footer extends Component {
                         </li>
                         <li className="col-4-12 right legal">
                             <ul className="flex-column">      
-                                <h3 className="bold footer"> legal </h3><br/>
+                                <h3 className="bold footer"> legal </h3>
                                 <h5> Terms </h5>
                                 <h5> Privacy </h5>
                             </ul>

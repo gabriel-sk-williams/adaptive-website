@@ -33,22 +33,22 @@ class NavTop extends Component {
 			<nav className="nav-top">
 				<NavMobile status={mobileClass} menuToggle={this.menuToggle}/>
 
-					<Link to='/'>
-						<h1 className="bold">adaptive</h1>
-					</Link>
+          <Link to='/'>
+            <h1 className="bold">adaptive</h1>
+          </Link>
 
-					<ul className="flex-right bottom-right">
-						<li className='link-header'>
-							<Link to='/tech/'>
-								<h3 id="nav" className={techClass}>tech</h3>
-							</Link>
-						</li>
-						<li className='link-header'>
-							<Link to='/contact/'>
-								<h3 id="nav" className={aboutClass}>contact</h3>
-							</Link>
-						</li>
-					</ul>
+          <ul className="flex-right bottom-right">
+            <li className='link-header'>
+              <Link to='/tech/'>
+                <h3 id="nav" className={techClass}>tech</h3>
+              </Link>
+            </li>
+            <li className='link-header'>
+              <Link to='/contact/'>
+                <h3 id="nav" className={aboutClass}>contact</h3>
+              </Link>
+            </li>
+          </ul>
 
 				<Menu className={hamburgerClass} onClick={this.handleClick} />
 			</nav>

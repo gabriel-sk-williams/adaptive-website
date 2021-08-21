@@ -14,7 +14,7 @@ class NavMobile extends Component {
             <div className="mobile-rails">
               <NavTopMobile menuToggle={this.menuToggle} />
               <Link to='/tech/'>
-                <section className="mini-module">
+                <span className="mini-module">
                   <ul className="flex">
                     <li className="col-6-12">
                       <div className="mini-card">
@@ -30,10 +30,10 @@ class NavMobile extends Component {
                       </div>
                     </li>
                   </ul>
-                </section>
+                </span>
               </Link>
               <Link to='/contact/'>
-                <section className="mini-module">
+                <span className="mini-module">
                   <ul className="flex">
                     <li className="col-6-12">
                       <div className="mini-card">
@@ -49,7 +49,7 @@ class NavMobile extends Component {
                       </div>
                     </li>
                   </ul>
-                </section>
+                </span>
                 <section className="fake-module" />
               </Link>
             </div>

@@ -142,6 +142,10 @@ h1.foldaway {
   letter-spacing: 0.00rem;
   cursor: pointer;
 }
+h1.contact {
+  margin-block-start:2rem;
+  margin-block-end:2rem;
+}
 
 h2 {
   font-family:Montserrat;
@@ -189,6 +193,7 @@ h3:hover {
   font-weight: 600;
 }
 h3.footer {
+  margin-block-end:1rem;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
 }
@@ -206,18 +211,20 @@ h4 {
   cursor:default;
   margin: auto 0;
 }
-
 h4.bold {
   font-weight: 400;
   letter-spacing: .09rem;
 }
-
 h4.select {
   cursor: pointer;
 }
 
 h4.select:hover {
   font-weight: 500;
+}
+h4.contact {
+  margin-block-start:0.2rem;
+  margin-block-end:0.2rem;
 }
 
 h5 {
@@ -535,9 +542,6 @@ footer {
   nav.nav-top.mobile {
     margin-bottom: 1rem;
   }
-  .mobile-rails {
-    margin: 1rem 2rem;
-  }
   .mobile-touch{
     cursor:pointer;
   }
@@ -567,7 +571,7 @@ footer {
   .hamburger {
     display: block;
     right: 0;
-    top: 4px;
+    top: 10px;
   }
   .exit-shape{
     cursor: pointer;
@@ -597,14 +601,13 @@ footer {
   /* LAYOUT */
   
   h1 {
-    letter-spacing:0.15rem;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-weight: 500;
+    letter-spacing:0.00rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
   }
   h1.underline {
-    font-weight: 600;
-    font-size: 1.1rem;
-    letter-spacing: 0.00rem;
+    font-size: 1.4rem;
   }
   h1.indent {
     width: 22rem;
@@ -631,39 +634,55 @@ footer {
     line-height: 4rem;
   }
   h3.footer {
+    margin-block-end: 0.3rem;
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
-    line-height: 1.4rem;
   }
   h4 {
     letter-spacing:0rem;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  h4.blurb {
+    margin-block-start: 3rem;
+    margin-block-end: 2rem;
+  }
+  h4.contact {
+    letter-spacing:0rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+  }
+  h4.indent {
+    padding-left: 0rem;
   }
   h5 {
     letter-spacing:0.03rem;
     font-size: .6rem;
     line-height: 0.9rem;
   }
-  /*
+  
   img.svg-base {
-    position: absolute;
-    top: 6rem;
-    pointer-events: none;
-    width: 100%;
+    top: 3rem;
   }
-  */
+  
   .main-rails {
+    margin: 0.4rem 1.5rem;
+  }
+  
+  .mobile-rails {
     margin: 0rem 1rem;
   }
+  
   .inner-rails {
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
   }
   .container {
     max-width: 48rem;
   }
   .send-right {
-    width: 20rem;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -671,10 +690,6 @@ footer {
   .send-left {
     width: 28rem;
     text-align: left;
-  }
-
-  h4.indent {
-    padding-left: 0rem;
   }
   .flex.indent {
     padding-left: 0rem;
@@ -687,10 +702,10 @@ footer {
   .paragraph {
     width: 20rem;
   }
-  .module-diagram { height: 21rem; }
-  .module { height: 42rem; }
+  .module-diagram { height: 24rem; }
+  .module { height: 44rem; }
   .module-two-thirds { height: 12rem; }
-  .module-half { height: 19rem; }
+  .module-half { height: 26rem; }
   .module-third { height: 5rem; }
   .module-quarter { height: 4rem; }
   .module-fifth { height: 3rem; }
