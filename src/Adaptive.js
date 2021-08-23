@@ -55,17 +55,17 @@ class Adaptive extends Component {
 
     return (
       <main className="container">
-        <img className="svg-base" src={LandscapeMain} alt="Main" />
-        
-        <div className="flex-column">
-          <section className="module-diagram send-right inner-rails">
-            <h1>Introducing the world's first urban graph network.</h1>
-            <div className="gap-top"/>
-          </section>
+        <div className="flex-column inner-rails">
 
-          <section className="module-half inner-rails">
-            <h1 className="indent mini-bottom">Move beyond mapping with a new data structure.</h1>
-            <h4 className="left indent paragraph gap-bottom">
+          <section className="send-right">
+            <h1 className="hero">Introducing the world's first urban graph network.</h1>
+          </section>
+        
+          <img className="svg-hero" src={LandscapeMain} alt="Main" />
+
+          <section className="gap-top">
+            <h1 className="mini-bottom">Move beyond mapping with a new data structure.</h1>
+            <h4 className="left paragraph gap-bottom">
               Adaptive is a virtual graph database that aggregrates inputs from distributed sources and gives them a common data model.
               <br/><br/>
               In plain English, this means that urban data of all shapes and sizes can be connected, retrieved, and analyzed in tandem for the first time.
@@ -74,10 +74,9 @@ class Adaptive extends Component {
             </h4>
           </section>
 
-          <section className="module inner-rails">
-            <h1 className="indent underline">Now offering:</h1>
-            <div className="mini-top" />
-            <div className="flex indent icons">
+          <section className="gap-top">
+            <h1 className="underline mini-bottom">Now offering:</h1>
+            <div className="flex icons">
               <div className ="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={DataConversion} alt="Data Conversion" />
@@ -109,10 +108,9 @@ class Adaptive extends Component {
               </div>
             </div>
 
-            <div className="mini-bottom" />
-            <h1 className="indent underline">Coming soon:</h1>
-            <div className="mini-top" />
-            <div className="flex indent icons">
+            <div className="gap-top" />
+            <h1 className="underline mini-bottom">Coming soon:</h1>
+            <div className="flex icons">
               <div className ="flex-column col-6-12">
                 <div className="flex channel">
                   <img className="svg-large" src={UrbanEconomic} alt="Economic Modeling" />
@@ -131,6 +129,7 @@ class Adaptive extends Component {
               </div>
             </div>
           </section>
+
         </div>
         <Footer />
       </main>

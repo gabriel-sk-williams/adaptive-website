@@ -45,7 +45,7 @@ class Tech extends Component {
         <img className="svg-base" src={LandscapeTech} alt="Tech" />
         
         <div className="inner-rails">
-          <h1 className="left gap-top gap-bottom">
+          <h1 className="left hero">
             It's deeper than data structures.
           </h1>
           <h4 className="left paragraph gap-bottom"> 
