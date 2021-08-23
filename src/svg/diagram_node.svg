@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 600 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Layer1" transform="matrix(1,0,0,1,-84,-102)">
+        <g transform="matrix(1,0,0,1,2.59003,78.9113)">
+            <circle cx="118.119" cy="125.196" r="14.196" style="fill:rgb(90,169,230);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,439.067,78.9113)">
+            <circle cx="118.119" cy="125.196" r="14.196" style="fill:rgb(90,169,230);"/>
+        </g>
+        <g transform="matrix(6.46132,-1.71135e-14,-1.70789e-14,1.11069,-1339.75,58.192)">
+            <g transform="matrix(0.154767,2.38465e-15,2.37982e-15,0.900337,220.35,39.442)">
+                <path d="M65.504,96.804L53.504,102.804L65.504,108.804L65.504,96.804Z" style="fill:rgb(90,169,230);"/>
+                <path d="M444.392,96.804L456.392,102.804L444.392,108.804C447.392,105.804 447.392,99.804 444.392,96.804Z" style="fill:rgb(90,169,230);"/>
+                <path d="M63.104,102.804C118.024,102.804 391.871,102.804 446.792,102.804" style="fill:none;stroke:rgb(90,169,230);stroke-width:4px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-32.4949,52.8964)">
+            <text x="129.904px" y="123px" style="font-family:'Montserrat-Light', 'Montserrat';font-weight:300;font-size:18px;fill:rgb(90,169,230);">Node</text>
+        </g>
+        <g transform="matrix(1,0,0,1,402.242,52.8964)">
+            <text x="129.904px" y="123px" style="font-family:'Montserrat-Light', 'Montserrat';font-weight:300;font-size:18px;fill:rgb(90,169,230);">Node</text>
+        </g>
+        <g transform="matrix(1,0,0,1,175.044,62.5974)">
+            <text x="129.904px" y="123px" style="font-family:'Montserrat-Light', 'Montserrat';font-weight:300;font-size:18px;fill:rgb(90,169,230);">E<tspan x="141.784px " y="123px ">d</tspan>ge</text>
+        </g>
+    </g>
+</svg>

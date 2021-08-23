@@ -349,6 +349,13 @@ sup, sub {
   width: 100%;
 }
 
+.svg-diagram {
+  position: relative;
+  top: 0;
+  pointer-events: none;
+  width: 600px;
+}
+
 .svg-large {
   height: 6rem;
   width: 6rem;
@@ -578,6 +585,10 @@ button{
     font-size: 1.4rem;
   }
   h1.foldaway {
+    /*
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    */
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 2rem;
@@ -626,6 +637,9 @@ button{
   }
   .blurb {
     width: 95%
+  }
+  .svg-diagram {
+    width: 100%;
   }
   .svg-large {
     height: 4rem;
