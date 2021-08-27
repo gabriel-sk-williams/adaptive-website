@@ -26,7 +26,7 @@ class Tech extends Component {
     const f2 = 
     <div className="paragraph">
       <h4 className="mini-top">
-        These connections become important when we ask what we might do with them.
+      These connections become important when we ask what we might do with them.
       A graph is composed of 'nodes' and 'edges' (remember the molecule above). In a urban graph database, Nodes can be any urban element: a building, a parcel, a block, or even a person. 
       <br/><br/>
       We can also create many different horizontal relationships between various node types. For instance, due to the efficiency of graph networks we can calculate a 'distance' edge between any two nodes, because the streets themselves are a series of edges on their own. We can look at or even model the flows of goods and services, commutes to work, or trips to the grocery store by single mothers.
