@@ -24,7 +24,7 @@ class Contact extends Component {
           We're online!
           </h1>
           <h4 className="center blurb">
-          Adaptive is now in private beta and open to projects of all shapes and sizes. Contact us if you believe your planning department or business would benefit from a partnership.
+          Adaptive is now in private beta and open to opportunities of all shapes and sizes. Contact us if you believe your planning department or business would benefit from a partnership.
           </h4>
           <h4 className="center contact"> New York City </h4>
           <a href="mailto:office@adaptivecity.io">

@@ -128,22 +128,22 @@
             </g>
         </g>
         <g transform="matrix(0.195138,-0.112663,0.195107,0.112691,-6.18927,31.7427)">
-            <circle cx="67.981" cy="34.751" r="17.751" style="fill:rgb(255,214,57);"/>
+            <circle cx="67.981" cy="34.751" r="17.751" style="fill:rgb(90,169,230);"/>
         </g>
         <g transform="matrix(0.195138,-0.112663,0.195107,0.112691,63.0925,63.7428)">
-            <circle cx="67.981" cy="34.751" r="17.751" style="fill:rgb(255,214,57);"/>
+            <circle cx="67.981" cy="34.751" r="17.751" style="fill:rgb(90,169,230);"/>
         </g>
         <g transform="matrix(0.195138,-0.112663,0.195107,0.112691,-6.18927,71.7427)">
-            <circle cx="67.981" cy="34.751" r="17.751" style="fill:rgb(255,214,57);"/>
+            <circle cx="67.981" cy="34.751" r="17.751" style="fill:rgb(90,169,230);"/>
         </g>
         <g transform="matrix(1.5,-0.288675,-0.288675,1.16667,-10.3923,6)">
-            <path d="M27.713,60L48.497,48" style="fill:none;stroke:rgb(255,214,57);stroke-width:0.95px;"/>
+            <path d="M27.713,60L48.497,48" style="fill:none;stroke:rgb(90,169,230);stroke-width:0.95px;"/>
         </g>
-        <path d="M69.282,60L13.856,28" style="fill:none;stroke:rgb(255,214,57);stroke-width:1px;"/>
+        <path d="M69.282,60L13.856,28" style="fill:none;stroke:rgb(90,169,230);stroke-width:1px;"/>
         <g transform="matrix(1,0,0,1,6.9282,4)">
-            <path d="M34.641,40L48.497,32" style="fill:none;stroke:rgb(255,214,57);stroke-width:1px;"/>
+            <path d="M34.641,40L48.497,32" style="fill:none;stroke:rgb(90,169,230);stroke-width:1px;"/>
         </g>
-        <path d="M69.282,60L76.21,56L83.138,60" style="fill:none;stroke:rgb(255,214,57);stroke-width:1px;"/>
+        <path d="M69.282,60L76.21,56L83.138,60" style="fill:none;stroke:rgb(90,169,230);stroke-width:1px;"/>
         <g id="Clock" transform="matrix(1.89042,0,0,1.89042,-55.4055,-1.14462)">
             <g transform="matrix(0.494366,0,0,0.494366,32.1029,-1.2924)">
                 <circle cx="67.981" cy="34.751" r="17.751" style="fill:rgb(156,137,184);"/>

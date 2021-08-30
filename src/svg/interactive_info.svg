@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g id="Interactive-Analytics" serif:id="Interactive Analytics">
-        <path d="M63.338,49.432L74.694,55.898L74.537,62.409L69.065,65.625L69.016,72.38L57.659,78.495L51.981,75.386L46.303,78.595L40.624,75.25L29.307,81.784L17.911,75.204L29.268,68.784L24.042,65.767L29.268,62.75L23.589,59.131L23.708,52.597L34.952,45.952L63.338,49.432" style="fill:none;stroke:rgb(254,144,173);stroke-width:4px;"/>
+    <g id="Interactive-Infographics" serif:id="Interactive Infographics">
+        <path d="M63.338,49.432L74.694,55.898L74.537,62.409L69.065,65.625L69.016,72.38L57.659,78.495L51.981,75.386L46.303,78.595L40.624,75.25L29.307,81.784L17.911,75.204L29.268,68.784L24.042,65.767L29.268,62.75L23.589,59.131L23.708,52.597L34.952,45.952L63.338,49.432" style="fill:none;stroke:rgb(90,169,230);stroke-width:4px;"/>
         <g transform="matrix(0.435854,-0.153118,-0.153118,0.612659,48.8646,37.7699)">
-            <path d="M60.855,76.774L92.734,95.277" style="fill:none;stroke:rgb(254,144,173);stroke-width:5.24px;"/>
+            <path d="M60.855,76.774L92.734,95.277" style="fill:none;stroke:rgb(90,169,230);stroke-width:2.62px;"/>
         </g>
         <g transform="matrix(0.693213,0,0,0.693213,7.2429,24.1089)">
-            <path d="M23.609,78.585L8.49,87.314" style="fill:none;stroke:rgb(254,144,173);stroke-width:2.89px;"/>
+            <path d="M23.609,78.585L8.49,87.314" style="fill:none;stroke:rgb(90,169,230);stroke-width:2.89px;"/>
         </g>
         <g transform="matrix(0.73266,-0.154349,-0.154349,0.910887,15.7695,9.10453)">
-            <path d="M31.208,48.114L15.371,38.97" style="fill:none;stroke:rgb(254,144,173);stroke-width:2.97px;"/>
+            <path d="M31.208,48.114L15.371,38.97" style="fill:none;stroke:rgb(90,169,230);stroke-width:1.49px;"/>
         </g>
         <g transform="matrix(0.647185,0,0,0.647185,61.6402,-6.74308)">
-            <path d="M23.609,78.585L8.49,87.314" style="fill:none;stroke:rgb(254,144,173);stroke-width:3.09px;"/>
+            <path d="M23.609,78.585L8.49,87.314" style="fill:none;stroke:rgb(90,169,230);stroke-width:3.09px;"/>
         </g>
         <path d="M57.659,78.528L69.016,72.38L69.016,65.596L74.694,62.318L74.694,55.898L63.338,49.432L63.338,36.591L57.659,33.267L57.659,20.335L51.981,17.057L46.303,20.335L46.302,26.801L35.261,33.131L34.946,46.208L23.589,52.665L23.589,59.131L29.259,62.359L23.827,65.732L29.268,68.875L17.911,75.386L29.307,81.784L40.624,75.25L46.401,78.653L51.981,75.386L57.659,78.528Z" style="fill:rgb(239,238,238);stroke:rgb(62,54,63);stroke-width:0.75px;"/>
         <path d="M57.659,78.528L69.016,72.38L69.016,65.596L74.694,62.318L74.694,55.898L63.338,49.432L63.338,36.591L57.659,33.267L57.659,20.335L51.981,17.057L46.303,20.335L46.302,26.801L35.261,33.131L34.946,46.208L23.589,52.665L23.589,59.131L29.259,62.359L23.827,65.732L29.268,68.875L17.911,75.386L29.307,81.784L40.624,75.25L46.401,78.653L51.981,75.386L57.659,78.528Z" style="fill:url(#_Linear1);"/>
@@ -92,6 +92,6 @@
         </g>
     </g>
     <defs>
-        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-2.83917,34.4458,-34.4458,-2.83917,49.1417,51.0482)"><stop offset="0" style="stop-color:rgb(143,201,58);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(98,139,72);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-5.67835,42.0283,-42.0283,-5.67835,57.6593,33.267)"><stop offset="0" style="stop-color:rgb(156,137,184);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(254,144,173);stop-opacity:1"/></linearGradient>
     </defs>
 </svg>

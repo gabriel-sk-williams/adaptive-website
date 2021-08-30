@@ -42,7 +42,7 @@ class Tech extends Component {
     const f4 = 
     <div className="paragraph">
       <h4 className="mini-top">
-      Adaptive is built for anyone with urban problems to solve—primarily city planning departments and developers.
+      Adaptive is built for anyone with urban problems to solve—primarily city planning departments and developers. A tech demo is available upon request.
       </h4>
     </div>
 
@@ -55,8 +55,7 @@ class Tech extends Component {
             A service, product, and a platform all at once.
           </h1>
           <h4 className="left paragraph gap-bottom"> 
-             Adaptive is built on the premise that there is no silver bullet for urban problems: every place is the dynamic expression of its populace, and therefore every project demands a unique approach. There is no standardized, scalable venture-backed solution that would meet the needs of every city in the country—but we do believe planning and development can be more informed, effective, and dynamic.<br/><br/>
-             
+             Adaptive is built on the premise that there is no silver bullet for urban problems: every place is a dynamic expression of its own, and therefore every project demands a unique approach. There may not be a standardized, scalable venture-backed solution that would meet the needs of every city in the country—but we do believe planning and development can be more informed, effective, and dynamic.<br/><br/>
           </h4>
           <Foldaway headline="What is a graph network?" content={f1} />
           <Foldaway headline="What's the difference?" content={f2} />
