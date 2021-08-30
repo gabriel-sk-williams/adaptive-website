@@ -48,16 +48,11 @@ class Adaptive extends Component {
   }
 
   render() {
-    //const { scroll } = this.state;
-    //const scootOnScroll = scroll > 0.075 ? "svg-appear scoot-in" : "svg-appear";
-    //const appearOnScroll = scroll > 0.075 ? "svg-appear fade-in" : "svg-appear";
-    //const appearWithDelay = "svg-appear fade-delay";
-
     return (
       <main className="container">
 
         <section className="send-right inner-rails">
-          <h1 className="hero">Introducing the world's first urban graph network.</h1>
+          <h1 className="hero">The urban graph network for cities and developers.</h1>
         </section>
 
         <img className="svg-hero" src={LandscapeMain} alt="Main" />
@@ -65,12 +60,10 @@ class Adaptive extends Component {
         <div className="flex-column inner-rails">
           <section className="gap-top">
             <h1 className="mini-bottom">Move beyond mapping with a new data structure.</h1>
-            <h4 className="left paragraph gap-bottom">
-              Adaptive is a virtual graph database that aggregrates inputs from distributed sources and gives them a common data model.
+            <h4 className="paragraph gap-bottom">
+              Adaptive is a virtual graph database that aggregrates inputs from distributed sources and gives them a common data model—meaning that urban data of all shapes and sizes can now be connected, retrieved, and analyzed in a unified interface.
               <br/><br/>
-              In plain English, this means that urban data of all shapes and sizes can be connected, retrieved, and analyzed in tandem for the first time.
-              <br/><br/>
-              Stop switching between maps, and tap into a rich new framework for cities and developers.
+              Run custom queries across entire cities. Generate reports and policy assessments in a fraction of the time. Stop switching between maps, and tap into a rich new framework for urban planning and development.
             </h4>
           </section>
 

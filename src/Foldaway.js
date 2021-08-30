@@ -7,21 +7,18 @@ class Foldaway extends Component {
         this.state = {
           headline: props.headline,
           content: props.content,
-          expanded: false,
+          expanded: true,
         }
     }
 
     toggle = () => {
-        this.setState( prevState => ({
-            expanded: !prevState.expanded
-        }))
-        console.log(this.state.expanded);
+        this.setState( prevState => ({ expanded: !prevState.expanded }))
     }
 
     render() {
         const { headline, content, expanded } = this.state;
         const status = expanded ? "expand" : "fold";
-        const prefix = expanded ? "- " : "+ "
+        const prefix = expanded ? "+ " : "- "
         const hl = prefix + headline;
         return (
             <div>

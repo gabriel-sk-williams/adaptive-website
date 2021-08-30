@@ -15,10 +15,8 @@ class Tech extends Component {
     const f1 = 
       <div className="paragraph">
         <h4 className="mini-top">
-          A graph is a database that uses 'nodes' and 'edges' to store and represent data.
+          A <b>graph</b> is a type of database that uses <b>nodes</b> and <b>edges</b> to store and represent information. Edges delineate a relationship between any two nodes. In Adaptive, a node be almost any urban element: a building, a parcel, a block, or even a person.
           <br/><br/>
-          Edges are the connections, or relationships between nodes. In an urban context this can be almost anything: Streets can be connected to each other; 
-           For instance, we might say that a 'business' node is inside 'building' node. Within the Adaptive nomenclature this would be a vertical relationship, where one type of node contains a different, smaller node. So all of our nodes have at least one or two vertical relationships: the City node contains Neighborhood nodes, which contain Block nodes, which contain Zoning and Parcel nodes, which contain Building nodes. 
         </h4>
         <img className="svg-diagram" src={NodeDiagram} alt="Main" />
       </div>
@@ -26,10 +24,9 @@ class Tech extends Component {
     const f2 = 
     <div className="paragraph">
       <h4 className="mini-top">
-      These connections become important when we ask what we might do with them.
-      A graph is composed of 'nodes' and 'edges' (remember the molecule above). In a urban graph database, Nodes can be any urban element: a building, a parcel, a block, or even a person. 
+      Since graph networks store <b>connections</b> instead of unsorted and unattached entries, we can accommodate highly flexible queries.
       <br/><br/>
-      We can also create many different horizontal relationships between various node types. For instance, due to the efficiency of graph networks we can calculate a 'distance' edge between any two nodes, because the streets themselves are a series of edges on their own. We can look at or even model the flows of goods and services, commutes to work, or trips to the grocery store by single mothers.
+      If a planner wants to generate a proximity assessment for a 15-minute city profile, we want her to have that map in minutes, not months. Likewise, developers shouldn't have to sift through private data repositories and wait for zoning analyses to find the right opportunity. In a graph database, we can retrieve all the elements we need and prepare them automatically.
       </h4>
       <img className="svg-diagram" src={NodeCity} alt="Main" />
     </div>
@@ -37,9 +34,7 @@ class Tech extends Component {
     const f3 = 
     <div className="paragraph">
       <h4 className="mini-top">
-      If you can imagine how data might appear in an Excel spreadsheet—that's a somewhat typical 'SQL' database structure, complete with rows and columns as its primary organizing principle.
-
-      Sure, you can do some of these things individually on Google maps or inside various softwares, but never all at the same time. A very experienced urban planner will make these same connections in her mind, but only to a relatively limited degree, and certainly not at scale. If that urban planner wants to generate a proximity assessment for a 15-minute city project, we want her to have that map in minutes, not months. Likewise, for developers, time is money; sifting through private data repositories and waiting on the architect for a zoning analysis is not an ideal use of resources.. None of this tedium is necessary anymore. With Adaptive all the relevant data points can be added, aligned, search, and filtered.
+      After initializing the core graph, we can begin to introduce new data sets as they relate to the region of interest. These data points can come in any format, including physical documents that would benefit from being digitized. We use proprietary algorithms to parse, process, and distribute new information within the graph; every new data point strengthens the assertions made by the Adaptive network.
       </h4>
       <img className="svg-diagram" src={NodeConnection} alt="Main" />
     </div>
@@ -57,14 +52,15 @@ class Tech extends Component {
         
         <div className="inner-rails">
           <h1 className="left hero">
-            It's deeper than data structures.
+            A service, product, and a platform all at once.
           </h1>
           <h4 className="left paragraph gap-bottom"> 
-            We are perhaps the rare startup built by urbanists, for urbanists. Our platform is built on the premise that there is no silver bullet for urban problems: every place is the dynamic expression of political and socio-economic circumstances, and every project demands a unique approach. We don't believe there is a standardized, scalable VC-backed product that would singlehandedly meet the needs of every city in the country—but we do believe planning and development can be more informed, effective, and dynamic. <br/><br/>
+             Adaptive is built on the premise that there is no silver bullet for urban problems: every place is the dynamic expression of its populace, and therefore every project demands a unique approach. There is no standardized, scalable venture-backed solution that would meet the needs of every city in the country—but we do believe planning and development can be more informed, effective, and dynamic.<br/><br/>
+             
           </h4>
           <Foldaway headline="What is a graph network?" content={f1} />
-          <Foldaway headline="How does it work?" content={f2} />
-          <Foldaway headline="What's the difference?" content={f3} />
+          <Foldaway headline="What's the difference?" content={f2} />
+          <Foldaway headline="How does it work?" content={f3} />
           <Foldaway headline="Who is it for?" content={f4} />
         </div>
         <Footer />
