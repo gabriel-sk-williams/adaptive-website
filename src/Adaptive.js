@@ -51,13 +51,13 @@ class Adaptive extends Component {
     return (
       <main className="container">
 
-        <section className="send-right inner-rails">
+        <section className="send-right hero-rails">
           <h1 className="hero">The urban graph network for cities and developers.</h1>
         </section>
 
         <img className="svg-hero" src={LandscapeMain} alt="Main" />
 
-        <div className="flex-column inner-rails">
+        <div className="flex-column hero-rails">
           <section className="gap-top">
             <h1 className="mini-bottom">Move beyond mapping with a new data structure.</h1>
             <h4 className="paragraph gap-bottom">

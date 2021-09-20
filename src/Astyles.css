@@ -319,6 +319,10 @@ sup, sub {
   margin: 0rem 1.8rem;
 }
 
+.hero-rails {
+  padding: 1.6rem 3rem;
+}
+
 .inner-rails {
   padding: 4rem 3rem;
 }
@@ -477,7 +481,7 @@ button{
     margin-right: auto;
     text-align: center;
   }
-  .inner-rails { padding: 3rem 2rem; }
+  .inner-rails, .hero-rails { padding: 3rem 2rem; }
   .svg-large {
     height: 5rem;
     width: 5rem;
@@ -629,7 +633,7 @@ button{
     font-size: .6rem;
     line-height: 0.9rem;
   }
-  .inner-rails {
+  .inner-rails, .hero-rails {
     padding: 1rem 1.7rem;
   }
   .paragraph {
