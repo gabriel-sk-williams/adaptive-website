@@ -15,7 +15,7 @@ class Tech extends Component {
     const f1 = 
       <div className="paragraph">
         <h4 className="mini-top">
-          A <b>graph</b> is a type of database that uses <b>nodes</b> and <b>edges</b> to store and represent information. Edges delineate a relationship between any two nodes. In Adaptive, a node be almost any urban element: a building, a parcel, a block, or even a person.
+          A <b>graph</b> is a type of database that uses <b>nodes</b> and <b>edges</b> to store and represent information. Edges delineate a relationship between any two nodes. In Adaptive, a node can be almost any urban element: a building, a parcel, a block, or even a person.
           <br/><br/>
         </h4>
         <img className="svg-diagram" src={NodeDiagram} alt="Main" />
