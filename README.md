@@ -1,4 +1,4 @@
-## Website for our flagship urban research product
+## Website for our flagship urban research product, Adaptive
 
 Javascript / React
 
